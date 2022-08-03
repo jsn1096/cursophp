@@ -1,0 +1,7 @@
+CREATE DATABASE album1;
+USE album1;
+CREATE TABLE fotos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    ruta VARCHAR(255)
+);
